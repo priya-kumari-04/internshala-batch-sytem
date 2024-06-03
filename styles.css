@@ -1,0 +1,548 @@
+    /* Custom CSS styles */
+    
+    .hero {
+        background: url('your-image.jpg') no-repeat center center;
+        background-size: cover;
+        color: white;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .feature-icon {
+        font-size: 3rem;
+        color: #1a1b1b;
+    }
+    /* Text color for sections */
+    /* Center-align text in the footer */
+    
+    .footer p {
+        text-align: center;
+    }
+    
+    .footer-sections a {
+        color: black;
+    }
+    /* Background color for subscribe box */
+    /* Set margin for body and footer */
+    
+    .subscribe-box {
+        background-color: black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    /* Text color for text inside subscribe box */
+    
+    .subscribe-box p {
+        color: white;
+    }
+    /* Make section headings bold */
+    
+    .footer-section-heading {
+        font-weight: bold;
+    }
+    
+    .footer {
+        background-color: #f8f9fa;
+        padding: 2rem 0;
+        text-align: center;
+    }
+    
+    .footer-sections {
+        color: black;
+        /* Text color for sections */
+    }
+    
+    .footer-section-heading {
+        font-weight: bold;
+    }
+    
+    .subscribe-box {
+        background-color: black;
+        /* Background color for subscribe box */
+        color: white;
+        /* Text color for text inside subscribe box */
+    }
+    
+    @media (max-width: 767px) {
+        .hero {
+            height: auto;
+            padding: 2rem 1rem;
+        }
+    }
+    
+    .header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        flex: 1;
+        font-size: 24px;
+    }
+    
+    .title {
+        flex: 1;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .download {
+        flex: 1;
+        text-align: right;
+        font-size: 16px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .download:hover {
+        text-decoration: underline;
+    }
+    
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+    
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+    
+    .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+    
+    .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+    }
+    
+    .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+    }
+    
+    .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+    }
+    
+    .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+    }
+    
+    .bd-mode-toggle {
+        z-index: 1500;
+    }
+    
+    .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+    }
+    
+    header {
+        width: 1090px;
+        height: 60px;
+    }
+    
+    .faq-box {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    
+    .faq-box h3 {
+        margin-top: 0;
+    }
+    
+    .black-container {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    .text-section {
+        padding: 20px;
+    }
+    
+    .image-section img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer-content {
+        text-align: center;
+        /* Center align the text */
+    }
+    
+    @media (min-width: 576px) {
+        .footer-content {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    body {
+        background-color: #FFFFFF;
+    }
+    
+    .header-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-container header a,
+    .header-container header b,
+    .header-container header sup {
+        color: black !important;
+    }
+    /* Keep the Home link in pink */
+    
+    .header-container header .home-link {
+        color: #FF4141 !important;
+    }
+    /* Set the text inside the download button to white */
+    
+    .header-container header .download-button {
+        color: white !important;
+    }
+    /* Ensure the icon color remains unchanged */
+    
+    .header-container header .link-secondary img {
+        filter: none;
+    }
+    /* Ensure the entire page has a white background */
+    
+    body {
+        background-color: #FFFFFF;
+    }
+    /* Center the header on the page */
+    
+    .container header {
+        display: flex;
+        justify-content: center;
+    }
+    /* Set the text color to black for all links and text inside the header except for specific elements */
+    
+    .container header a,
+    .container header b,
+    .container header sup {
+        color: black;
+    }
+    /* Keep the Home link in pink */
+    
+    .container header .home-link {
+        color: #FF4141 !important;
+    }
+    /* Set the text inside the download button to white */
+    
+    .container header .download-button {
+        color: white !important;
+    }
+    /* Ensure the icon color remains unchanged */
+    
+    .container header .link-secondary img {
+        filter: none;
+    }
+    /* Add more distance between the About link and the Download button */
+    
+    .container header .download-container {
+        margin-left: 60px;
+        /* Adjust the value as needed for more spacing */
+    }
+    
+    .faq-box.pink-box {
+        background-color: rgb(249, 32, 68);
+        color: white;
+    }
+    
+    .faq-box.pink-box h3,
+    .faq-box.pink-box p {
+        color: white;
+    }
+    
+    .white-button {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        /* Add border for clarity */
+        padding: 8px 12px;
+        /* Adjust padding as needed */
+        transition: all 0.3s ease;
+        /* Add transition for smooth hover effect */
+    }
+    
+    .white-button:hover {
+        background-color: #f0f0f0;
+        /* Change background color on hover */
+    }
+    
+    .button-icon {
+        margin-left: 5px;
+        /* Adjust the margin between icon and text */
+    }
+    
+    .button-text {
+        margin-right: 5px;
+        /* Adjust the margin between icon and text */
+    }
+    
+    .text-container {
+        padding: 20px;
+    }
+    
+    .text-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .text-container .highlight {
+        color: pink;
+    }
+    
+    .text-container h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .text-container ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .text-container ul li {
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 30px;
+        /* Adjust padding to make space for the icon */
+    }
+    
+    .text-container ul li::before {
+        content: '';
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20px;
+        /* Adjust width according to your icon size */
+        height: 20px;
+        /* Adjust height according to your icon size */
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .text-container ul li.icon-1::before {
+        background-image: url('star\ simple.png');
+        /* Replace with the actual path to your icon */
+    }
+    
+    .text-container ul li.icon-2::before {
+        background-image: url('snow\ icon.png');
+        /* Replace with the actual path to your icon */
+    }
+    
+    .text-container ul li.icon-3::before {
+        background-image: url('cube.png');
+        /* Replace with the actual path to your icon */
+    }
+    
+    .text-container ul li.icon-4::before {
+        background-image: url('Ghnati.png');
+        /* Replace with the actual path to your icon */
+    }
+    
+    .text-container ul li.icon-5::before {
+        background-image: url('Group\ 35899.png');
+        /* Replace with the actual path to your icon */
+    }
+    
+    .text-container h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .text-container p {
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .container {
+        text-align: center;
+    }
+    
+    .testimonial-heading {
+        font-size: 12px;
+        /* Small font size */
+        font-weight: normal;
+        /* Remove bold */
+        text-transform: uppercase;
+        /* Optional: makes the text uppercase */
+        margin-bottom: 10px;
+    }
+    
+    .testimonial-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .image-container img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .text-container {
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    .text-container h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .text-container p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .container {
+        text-align: center;
+    }
+    
+    .testimonial-heading {
+        font-size: 12px;
+        /* Small font size */
+        font-weight: normal;
+        /* Remove bold */
+        text-transform: uppercase;
+        /* Optional: makes the text uppercase */
+        margin-bottom: 10px;
+    }
+    
+    .testimonial-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .image-container img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .d-flex {
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-container {
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    .text-container h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .text-container p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .text-container,
+    .image-container {
+        width: 100%;
+    }
+    
+    .custom-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* Adjust the spacing between icon and text */
+    }
+    
+    .custom-btn i {
+        margin-right: 5px;
+        /* Space between the icon and text */
+    }
+    
+    .btn-primary.custom-btn {
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+    .btn-outline-secondary.custom-btn {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    /* Optional: Adjust spacing between buttons */
+    
+    .d-flex.justify-content-between .custom-btn {
+        margin-right: 0;
+        /* Space between the buttons */
+    }
+    
+    .d-flex.justify-content-between .custom-btn:last-child {
+        margin-right: 0;
+        /* Remove the margin for the last button */
+    }
